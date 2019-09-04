@@ -15,9 +15,10 @@ public class Atividade3 {
          
     String variavell = "O rato roeu a roupa";
     String variavel2 = " Do rei de roma";
-        
+    String txtSomaDasVariavel = variavell + variavel2;    
     
          String resultado = concatenar (variavell, variavel2);
+         System.out.println(txtSomaDasVariavel);
          System.out.println(resultado);
 
      } 
